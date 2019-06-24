@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Loan Prediction</title>
+</head>
+<body>
+<h2>Type the Features for the user who want to take the LOAN</h2>
+
+<form action="http://127.0.0.1:9000/predict" method="get">
+  ______Gender_______:
+  <input type="text" name="gender">
+  <br><br>
+  _______Married_____:
+  <input type="text" name="married">
+  <br><br>
+  _____Dependents____:
+  <input type="text" name="dependents">
+  <br><br>
+  _____Education_____:
+  <input type="text" name="education">
+  <br><br>
+  ___Self-Employed___:
+  <input type="text" name="selfemployed">
+  <br><br>
+  __ApplicantIncome__:
+  <input type="text" name="app_income">
+  <br><br>
+  _CoapplicantIncome_:
+  <input type="text" name="co_income">
+  <br><br>
+  ____LoanAmount___:
+  <input type="text" name="loan_amount">
+  <br><br>
+   Loan-Amount-Term_:
+  <input type="text" name="loan_amt_term">
+  <br><br>
+  ___Credit_History__:
+  <input type="text" name="credit_hist">
+  <br><br>
+  ___Property-Area___:
+  <input type="text" name="prop_area">
+  
+  <br><br>
+  <input type="submit" value="Predict">
+</form>
+
+</body>
+</html>
